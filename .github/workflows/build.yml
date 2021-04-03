@@ -8,6 +8,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
+        - ruby: truffleruby-head
+          os: ubuntu-20.04
         - ruby: 3.0
           os: ubuntu-20.04
         - ruby: 2.7
